@@ -11,6 +11,6 @@ describe("Tests para ExplorerService", () => {
         const out=[{id:3,mission: "node",stacks:["node","react"]}];
         const explorersInNode=ExplorerService.filterbyStack(input,"node");
         expect(explorersInNode).toEqual(out);
-    })
+    });
 
 });
